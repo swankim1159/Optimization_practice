@@ -2,8 +2,15 @@
 Accuracy comparison using Gradient Descent with mini-batch, Momentum, and Adam.
 Learning Rate Dacay and Scheduling included. 
 
-# Used Packages.
+# Used Packages
 Numpy, Matplotlib, Scipy, Sklearn, etc.
+
+## Installation
+Install the required Python packages with:
+
+```bash
+pip install -r requirements.txt
+```
 
 # Assessment
 Higher accuracy, better result.
