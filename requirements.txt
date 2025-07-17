@@ -1,4 +1,4 @@
-+numpy
-+matplotlib
-+scipy
-+scikit-learn
+numpy
+matplotlib
+scipy
+scikit-learn
