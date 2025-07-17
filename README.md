@@ -39,6 +39,14 @@ If you prefer to use the original course utilities or the full MNIST data
 set, replace the local modules with the versions available from the course
 repository or adjust `autils.load_data` accordingly.
 
+## Dataset loading
+
+The notebook relies on a helper function `load_data()` located in
+`dataset.py`.  When executed, this function downloads the MNIST dataset
+via Keras, normalizes the images to the range `[0, 1]` and returns the
+digit images together with their labels.  No manual dataset preparation
+is required as the dataset is fetched automatically.
+
 # Personal Lesson
 Gradient Descent is an effective tool, but it is not always the best solution for optimization. 
 Consider other optimization methods if results are unsatisfactory.
